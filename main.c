@@ -2,7 +2,7 @@
 #include <assert.h>
 
 int calcola_area_rettangolo(int base, int altezza) {
-    return base*altezza;
+    return base*base;
 }
 
 int main() {
