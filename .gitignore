@@ -1,4 +1,8 @@
-main
 .vscode
-main.dSYM
 a.out
+
+main
+main.dSYM
+main.soluzione
+main.soluzione.c
+main.soluzione.dSYM
