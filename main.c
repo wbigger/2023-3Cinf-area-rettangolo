@@ -9,10 +9,6 @@
  @return true se il punto appartiene, false in tutti gli altri casi
 */
 bool appartiene_punto_retta(int a, int b, int c, int px, int py);
-bool appartiene_punto_retta(int a, int b, int c, int px, int py)
-{
-    return a * px + b * px + c * py == 0;
-}
 
 /** @brief Calcola il coefficiente angolare di una retta
  La retta ha equazione ax + by + c = 0
@@ -237,4 +233,11 @@ int main()
     printf("Tutti i test sono andati a buon fine");
     printf("Punteggio finale: %d/%d", n_punti_test, n_punti_test);
     return n_punti_test;
+}
+
+/** Scrivere qui sotto le implementazioni delle funzioni del compito*/
+bool appartiene_punto_retta(int a, int b, int c, int px, int py)
+{
+    // Correggi il bug e implementa i giusti controlli
+    return a * px + b * px + c * py == 0;
 }
